@@ -5,8 +5,6 @@ const FEEDBACK_FORM_STATE = {
   message: '',
 };
 
-console.log(FEEDBACK_FORM_STATE);
-
 const refs = {
   form: document.querySelector('.feedback-form'),
   email: document.querySelector('input'),
