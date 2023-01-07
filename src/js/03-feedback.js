@@ -36,7 +36,7 @@ function onFormSubmit(event) {
 
   event.target.reset();
 
-  localStorage.clear();
+  localStorage.removeItem('feedback-form-state');
 }
 
 function onPageReload() {
