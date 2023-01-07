@@ -32,7 +32,7 @@ function onFormInput() {
 function onFormSubmit(event) {
   event.preventDefault();
 
-  console.log('Local storage data:', FEEDBACK_FORM_STATE);
+  console.log(FEEDBACK_FORM_STATE);
 
   event.target.reset();
 
